@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Display listening TCP and UDP ports with PID/program name
+
+netstat -lpnut
