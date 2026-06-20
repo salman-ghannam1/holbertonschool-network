@@ -1,8 +1,5 @@
 #!/usr/bin/env bash
 # Configure localhost and facebook.com name resolution
 
-sed -i '/localhost/d' /etc/hosts
-sed -i '/facebook.com/d' /etc/hosts
-
-echo "127.0.0.2 localhost" >> /etc/hosts
+echo "127.0.0.2 localhost" > /etc/hosts
 echo "8.8.8.8 facebook.com" >> /etc/hosts
