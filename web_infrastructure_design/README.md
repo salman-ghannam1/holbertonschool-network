@@ -1,54 +1,82 @@
-# Holberton School - Network
+# Web Infrastructure Design
 
-This repository contains networking projects completed as part of the Holberton School curriculum.
+This project is part of the Holberton School System Engineering & DevOps curriculum.
 
-## Projects
+The objective of this project is to understand how modern web infrastructures are designed, secured, monitored, and scaled. Instead of writing code, the project focuses on designing system architectures and explaining how each component works together.
 
-### basics_0
+## Learning Objectives
 
-Introduction to networking fundamentals:
+By completing this project, I learned how to:
 
-* OSI Model
-* LAN, WAN, and Internet
-* MAC and IP Addresses
-* TCP and UDP
-* Common Ports (SSH, HTTP, HTTPS)
-* ICMP and Ping
-* Network diagnostics using netstat
+- Design a simple web stack.
+- Build a distributed web infrastructure.
+- Improve availability using load balancers.
+- Understand DNS and domain name resolution.
+- Explain the roles of web servers and application servers.
+- Design a Primary-Replica database architecture.
+- Secure infrastructure using firewalls and HTTPS.
+- Monitor servers and applications.
+- Scale infrastructure by separating services into dedicated servers.
+- Identify Single Points of Failure (SPOF).
+- Understand High Availability concepts.
 
-### basics_1
+## Project Tasks
 
-Linux networking and hostname resolution:
+### 0. Simple Web Stack
 
-* localhost and loopback addresses
-* 0.0.0.0
-* /etc/hosts
-* Active network interfaces
-* Netcat (nc)
-* Listening on ports
-* Basic network troubleshooting
+- Single server architecture
+- Nginx
+- Application server
+- MySQL
+- DNS
+- Domain name
+
+### 1. Distributed Web Infrastructure
+
+- HAProxy load balancer
+- Two application servers
+- Primary-Replica MySQL
+- Active-Active load balancing
+- Round Robin algorithm
+
+### 2. Secured and Monitored Infrastructure
+
+- Firewalls
+- HTTPS (SSL)
+- Monitoring clients
+- Centralized monitoring
+- Security improvements
+
+### 3. Scale Up
+
+- Load balancer cluster
+- Dedicated web server
+- Dedicated application server
+- Dedicated database server
+- Improved scalability and maintainability
 
 ## Technologies
 
-* Bash
-* Linux (Ubuntu 22.04)
-* Networking Fundamentals
-* Netcat
-* Ping
-* Netstat
-* Ifconfig
+- Mermaid
+- Nginx
+- HAProxy
+- MySQL
+- HTTPS / SSL
+- Firewalls
+- DNS
+- Monitoring
+- Linux
 
-## Learning Outcomes
+## Skills Gained
 
-Through these projects, I learned:
-
-* How computer networks communicate
-* How IP addressing works
-* The differences between TCP and UDP
-* How hostname resolution is performed
-* How to inspect network interfaces
-* How to create simple network listeners using Netcat
-* Basic Linux networking administration
+- Infrastructure Design
+- High Availability
+- Load Balancing
+- Network Architecture
+- System Scalability
+- Monitoring
+- Security Fundamentals
+- DevOps Concepts
 
 ## Author
 
